@@ -36,7 +36,7 @@ include('connection.php')
     <form action="" method="post">
     <div class="mb-3" >
         <label for="" class="from-lable" >name</label>
-        <input type="text"name="name" placeholder="enter your name"class="form-control" value="<?php echo $data['Name']?>">
+        <input type="text"name="name" placeholder="enter your name"class="form-control" value="<?php echo $data['name']?>">
 <input type="hidden" name="id" value="<?php echo $data['id']?>">
     </div>
     <div class="mb-3">
